@@ -1,0 +1,231 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.isaquearaujo.apporganizaenem.TelaMedalhas">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:background="#0d567f"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/piru"
+            app:layout_widthPercent="100%"
+            app:layout_heightPercent="10%"
+            app:layout_marginTopPercent="0%"
+            app:layout_marginLeftPercent="0%"
+            android:textColor="#ffffff"
+            android:textSize="24dp"/>
+        <ScrollView
+            android:layout_below="@id/piru"
+            android:background="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView"><RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:paddingTop="20dp"
+                android:textAlignment="center"
+                android:id="@+id/titulomedalhas"
+                android:textSize="25dp"
+                android:text="Medalhas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_below="@id/titulomedalhas"
+                android:paddingTop="35dp"
+                android:paddingBottom="35dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff">
+                <ImageView
+                    android:src="@drawable/med1_pb"
+                    android:id="@+id/conquista1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/conquista1"
+                    android:src="@drawable/med2_pb"
+                    android:id="@+id/conquista2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/conquista2"
+                    android:src="@drawable/med3_pb"
+                    android:id="@+id/conquista3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/conquista3"
+                    android:src="@drawable/med4_pb"
+                    android:id="@+id/conquista4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/conquista4"
+                    android:src="@drawable/med5_pb"
+                    android:id="@+id/conquista5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/conquista5"
+                    android:src="@drawable/med6_pb"
+                    android:id="@+id/conquista6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/conquista6"
+                    android:src="@drawable/med7_pb"
+                    android:id="@+id/conquista7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/conquista7"
+                    android:src="@drawable/med8_pb"
+                    android:id="@+id/conquista8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/conquista8"
+                    android:src="@drawable/med9_pb"
+                    android:id="@+id/conquista9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/conquista9"
+                    android:src="@drawable/med10_pb"
+                    android:id="@+id/conquista10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:text="Medalha1"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista1"
+                    android:layout_toEndOf="@id/conquista1" />
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:text="Medalha2"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista2"
+                    android:layout_toEndOf="@id/conquista2" />
+                <TextView
+                    android:layout_marginLeft="21dp"
+                    android:text="Medalha3"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista3"
+                    android:layout_toEndOf="@id/conquista3" />
+                <TextView
+                    android:layout_marginLeft="23dp"
+                    android:text="Medalha4"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha4"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista4"
+                    android:layout_toEndOf="@id/conquista4" />
+                <TextView
+                    android:layout_marginLeft="23dp"
+                    android:text="Medalha5"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha5"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista5"
+                    android:layout_toEndOf="@id/conquista5" />
+                <TextView
+                    android:layout_marginLeft="24dp"
+                    android:text="Medalha6"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha6"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista6"
+                    android:layout_toEndOf="@id/conquista6" />
+                <TextView
+                    android:layout_marginLeft="24dp"
+                    android:text="Medalha7"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha7"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista7"
+                    android:layout_toEndOf="@id/conquista7" />
+                <TextView
+                    android:layout_marginLeft="26dp"
+                    android:text="Medalha8"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha8"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista8"
+                    android:layout_toEndOf="@id/conquista8" />
+                <TextView
+                    android:layout_marginLeft="27dp"
+                    android:text="Medalha9"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha9"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista9"
+                    android:layout_toEndOf="@id/conquista9" />
+                <TextView
+                    android:layout_marginLeft="29dp"
+                    android:text="Medalha10"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:background="@drawable/barrinha"
+                    android:id="@+id/textomedalha10"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/conquista10"
+                    android:layout_toEndOf="@id/conquista10" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</RelativeLayout>

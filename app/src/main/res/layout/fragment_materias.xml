@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00bb00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isaquearaujo.apporganizaenem.TelaMaterias">
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="9%"
+        app:layout_marginTopPercent="0%"
+        app:layout_marginLeftPercent="0%"
+        android:background="#0d567f"
+        app:tabIndicatorColor="#0F9BB2"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabIndicatorHeight="6dp"
+        app:tabTextAppearance="@style/MineCustomTabText"/>
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPager"
+        android:layout_below="@+id/tabLayout"
+        android:layout_centerHorizontal="true"></android.support.v4.view.ViewPager>
+    </android.support.percent.PercentRelativeLayout>
+</RelativeLayout>

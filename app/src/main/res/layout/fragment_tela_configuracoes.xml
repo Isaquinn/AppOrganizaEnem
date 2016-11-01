@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isaquearaujo.apporganizaenem.TelaConfiguracoes">
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/titleconfig"
+        android:background="#095379"
+        android:textSize="30dp"
+        android:text="Configurações"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_below="@id/titleconfig"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/conteudocongig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textnotificacao"
+                android:textColor="#0000FF"
+                android:textSize="20dp"
+                android:text="Notificações"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#095379"
+                android:textSize="18dp"
+                android:text="Desativar Notificações"
+                android:id="@+id/Desativarnotificacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textnotificacao"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:textSize="16dp"
+                android:layout_marginTop="6dp"
+                android:text="Desativar todas as notificações"
+                android:id="@+id/notificacaotexto"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Desativarnotificacao"
+                android:layout_alignParentStart="true" />
+            <android.support.v7.widget.SwitchCompat
+                android:theme="@style/ToggleSwitchTheme"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch1"
+                android:layout_alignBottom="@+id/notificacaotexto"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:id="@+id/conteudonotificacocentral"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/conteudocongig"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:textColor="#095379"
+                android:textSize="18dp"
+                android:text="Matéria Disponível"
+                android:id="@+id/materiadisponivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp" />
+            <TextView
+                android:textSize="16dp"
+                android:layout_marginTop="6dp"
+                android:text="Enviar notificação quando houver matérias disponíveis"
+                android:id="@+id/materiadisponiveltexto"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/materiadisponivel" />
+            <CheckBox
+                android:checked="true"
+                android:buttonTint="#095379"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/materiadisponivel"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/checkBox" />
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/materiadisponiveltexto"
+                />
+            <TextView
+                android:textColor="#095379"
+                android:textSize="18dp"
+                android:text="Alerta"
+                android:id="@+id/materiaparaestudar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/materiadisponiveltexto"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp" />
+            <TextView
+                android:textSize="16dp"
+                android:layout_marginTop="6dp"
+                android:text="Enviar notificação para o usuário não esquecer de utilizar o aplicativo"
+                android:id="@+id/materiaestudartexto"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/materiaparaestudar" />
+            <CheckBox
+                android:checked="true"
+                android:buttonTint="#095379"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox2"
+                android:layout_below="@+id/materiaparaestudar"
+                android:layout_alignStart="@+id/checkBox" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@id/conteudonotificacocentral"
+            android:id="@+id/conta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textconta"
+                android:textColor="#0000FF"
+                android:textSize="20dp"
+                android:text="Conta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#095379"
+                android:textSize="18dp"
+                android:text="Alterar Informações de login"
+                android:id="@+id/Alterarlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textconta"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp" />
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/Alterarlogin"
+                />
+            <TextView
+                android:textColor="#095379"
+                android:textSize="18dp"
+                android:text="Alterar Avatar"
+                android:id="@+id/AlterarAvatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Alterarlogin"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@id/conta"
+            android:id="@+id/sobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textsobre"
+                android:textColor="#0000FF"
+                android:textSize="20dp"
+                android:text="Sobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="#095379"
+                android:textSize="18dp"
+                android:text="Informações sobre o aplicativo"
+                android:layout_below="@id/textsobre"
+                android:id="@+id/informacaosobreoapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

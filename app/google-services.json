@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "897236136473",
+    "firebase_url": "https://organiza-enem-app.firebaseio.com",
+    "project_id": "organiza-enem-app",
+    "storage_bucket": "organiza-enem-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897236136473:android:ec1f179b89db7899",
+        "android_client_info": {
+          "package_name": "com.example.isaquearaujo.apporganizaenem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897236136473-t9elkj001mn2b81p99c038s61i066m7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBzBzzpSNcXhpBRkOyGfn7OCvQU7zwmjI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

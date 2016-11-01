@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#095379"
+    tools:context="com.example.isaquearaujo.apporganizaenem.TelaMudarAvatar">
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/menino"
+            android:id="@+id/imageavatarconfig"
+            app:layout_widthPercent="70%"
+            app:layout_heightPercent="60%"
+            app:layout_marginTopPercent="10%"
+            app:layout_marginLeftPercent="15%" />
+        <Button
+            android:background="@drawable/voltar"
+            android:id="@+id/cabeloanteriorconfig"
+            app:layout_widthPercent="20%"
+            app:layout_heightPercent="13%"
+            app:layout_marginTopPercent="22.5%"
+            app:layout_marginLeftPercent="2%" />
+        <Button
+            android:background="@drawable/voltar"
+            android:id="@+id/olhoanteriorconfig"
+            app:layout_widthPercent="20%"
+            app:layout_heightPercent="13%"
+            app:layout_marginTopPercent="34.5%"
+            app:layout_marginLeftPercent="2%"  />
+        <Button
+            android:background="@drawable/voltar"
+            android:id="@+id/bocanteriorconfig"
+            app:layout_widthPercent="20%"
+            app:layout_heightPercent="13%"
+            app:layout_marginTopPercent="46.5%"
+            app:layout_marginLeftPercent="2%" />
+        <Button
+            android:background="@drawable/avancar"
+            android:id="@+id/olhoposteriorconfig"
+            app:layout_widthPercent="20%"
+            app:layout_heightPercent="13%"
+            app:layout_marginTopPercent="34.5%"
+            app:layout_marginLeftPercent="78%" />
+        <Button
+            android:background="@drawable/avancar"
+            android:id="@+id/bocaposteriorconfig"
+            app:layout_widthPercent="20%"
+            app:layout_heightPercent="13%"
+            app:layout_marginTopPercent="46.5%"
+            app:layout_marginLeftPercent="78%" />
+        <Button
+            android:background="@drawable/avancar"
+            android:id="@+id/cabeloposteriorconfig"
+            app:layout_widthPercent="20%"
+            app:layout_heightPercent="13%"
+            app:layout_marginTopPercent="22.5%"
+            app:layout_marginLeftPercent="78%" />
+        <Button
+            android:background="@drawable/marrom"
+            android:id="@+id/cor1config"
+            app:layout_widthPercent="16%"
+            app:layout_heightPercent="10.4%"
+            app:layout_marginTopPercent="62.5%"
+            app:layout_marginLeftPercent="31%" />
+        <Button
+            android:background="@drawable/rosa"
+            android:id="@+id/cor2config"
+            app:layout_widthPercent="16%"
+            app:layout_heightPercent="10.4%"
+            app:layout_marginTopPercent="62.5%"
+            app:layout_marginLeftPercent="43%" />
+        <Button
+            android:background="@drawable/branco"
+            android:id="@+id/cor3config"
+            app:layout_widthPercent="16%"
+            app:layout_heightPercent="10.4%"
+            app:layout_marginTopPercent="62.5%"
+            app:layout_marginLeftPercent="55%" />
+        <Button
+            android:background="@drawable/ok"
+            android:id="@+id/okavatarconfig"
+            app:layout_widthPercent="30%"
+            app:layout_heightPercent="20%"
+            app:layout_marginTopPercent="80.5%"
+            app:layout_marginLeftPercent="70%" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+</FrameLayout>

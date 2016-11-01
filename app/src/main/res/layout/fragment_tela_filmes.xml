@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isaquearaujo.apporganizaenem.TelaFilmes">
+    <ScrollView
+        android:background="#ffffff"
+        android:id="@+id/scroollfilmes"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="50dp"
+            android:id="@+id/filmesfilmes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="25dp"
+                android:id="@+id/titulotelafilmes"
+                android:textAlignment="center"
+                android:text="Filmes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:paddingTop="20dp"
+                android:layout_below="@id/titulotelafilmes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                android:src="@drawable/olga"
+                android:id="@+id/filme1"
+                android:layout_width="112dp"
+                android:layout_height="165.76dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+                <ImageView
+                    android:src="@drawable/oqueeisso"
+                    android:id="@+id/filme2"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+                <ImageView
+                    android:src="@drawable/schin"
+                    android:id="@+id/filme3"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/filme1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/segundafeiraaosol"
+                    android:id="@+id/filme4"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/filme3"
+                    android:layout_alignParentEnd="true" />
+                <ImageView
+                    android:src="@drawable/adeuslenin"
+                    android:id="@+id/filme5"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/filme3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/montyphyton"
+                    android:id="@+id/filme6"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/filme5"
+                    android:layout_alignStart="@+id/filme4" />
+                <ImageView
+                    android:src="@drawable/xingu"
+                    android:id="@+id/filme7"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/filme5"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/desmundo"
+                    android:id="@+id/filme8"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/filme7"
+                    android:layout_alignStart="@+id/filme6" />
+                <ImageView
+                    android:src="@drawable/lamarca"
+                    android:id="@+id/filme9"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/filme7"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/lawrancedaarabia"
+                    android:id="@+id/filme10"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/filme9"
+                    android:layout_alignStart="@+id/filme8" />
+                <ImageView
+                    android:src="@drawable/lincoln"
+                    android:id="@+id/filme11"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/filme9"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/encontrocommiltonsantos"
+                    android:id="@+id/filme12"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/filme11"
+                    android:layout_alignStart="@+id/filme10" />
+                <ImageView
+                    android:src="@drawable/trezedias"
+                    android:id="@+id/filme13"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/filme11"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/aconquistadoparaiso"
+                    android:id="@+id/filme14"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/filme13"
+                    android:layout_alignStart="@+id/filme12" />
+                <ImageView
+                    android:src="@drawable/getulio"
+                    android:id="@+id/filme15"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/filme13"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/diariosdemotocicleta"
+                    android:id="@+id/filme16"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/filme15"
+                    android:layout_alignStart="@+id/filme14" />
+                <ImageView
+                    android:src="@drawable/lutero"
+                    android:id="@+id/filme17"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/filme15"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/osmiseraveis"
+                    android:id="@+id/filme18"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/filme17"
+                    android:layout_alignStart="@+id/filme16" />
+                <ImageView
+                    android:src="@drawable/invictus"
+                    android:id="@+id/filme19"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/filme17"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/oanoemquemeuspais"
+                    android:id="@+id/filme20"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/filme19"
+                    android:layout_alignStart="@+id/filme18" /></RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

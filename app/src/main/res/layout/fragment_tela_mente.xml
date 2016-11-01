@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isaquearaujo.apporganizaenem.TelaMente">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="#004c66"
+                android:paddingTop="2.5dp"
+                android:id="@+id/buttonmarcatexto"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:text="Marca texto"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/barrinha"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/buttonmarcatexto"
+                android:id="@+id/textomarcatexto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#004c66"
+                android:paddingTop="2.5dp"
+                android:id="@+id/buttontempodestudo"
+                android:layout_below="@id/textomarcatexto"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:text="Tempo de estudo"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/barrinha"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/buttontempodestudo"
+                android:id="@+id/textotempodestudo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="#004c66"
+                android:id="@+id/buttonpostit"
+                android:layout_below="@id/textotempodestudo"
+                android:paddingTop="2.55dp"
+                android:paddingLeft="10dp"
+                android:textSize="25dp"
+                android:text="Post it"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/barrinha"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/buttonpostit"
+                android:id="@+id/textopostit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

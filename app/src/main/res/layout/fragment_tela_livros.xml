@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isaquearaujo.apporganizaenem.TelaLivros">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:id="@+id/livroslivros"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="50dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:textSize="25dp"
+                android:id="@+id/titulotelalivros"
+                android:textAlignment="center"
+                android:text="Livros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_below="@id/titulotelalivros"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro1"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+                <ImageView
+                    android:src="@drawable/oqueeisso"
+                    android:id="@+id/livro2"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+                <ImageView
+                    android:src="@drawable/schin"
+                    android:id="@+id/livro3"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/livro1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro4"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/livro3"
+                    android:layout_alignParentEnd="true" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro5"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/livro3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro6"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/livro5"
+                    android:layout_alignStart="@+id/livro4" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro7"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/livro5"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro8"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/livro7"
+                    android:layout_alignStart="@+id/livro6" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro9"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/livro7"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro10"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/livro9"
+                    android:layout_alignStart="@+id/livro8" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro11"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/livro9"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro12"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/livro11"
+                    android:layout_alignStart="@+id/livro10" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro13"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/livro11"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro14"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/livro13"
+                    android:layout_alignStart="@+id/livro12" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro15"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/livro13"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro16"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/livro15"
+                    android:layout_alignStart="@+id/livro14" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro17"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/livro15"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro18"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/livro17"
+                    android:layout_alignStart="@+id/livro16" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro19"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_below="@+id/livro17"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="49dp" />
+                <ImageView
+                    android:src="@drawable/olga"
+                    android:id="@+id/livro20"
+                    android:layout_width="112dp"
+                    android:layout_height="165.76dp"
+                    android:layout_alignTop="@+id/livro19"
+                    android:layout_alignStart="@+id/livro18" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
