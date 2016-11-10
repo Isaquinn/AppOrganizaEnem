@@ -1,7 +1,10 @@
 package com.example.isaquearaujo.apporganizaenem;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.ConnectivityManager;
+import android.os.Debug;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -55,7 +58,19 @@ public class Principal extends AppCompatActivity {
         }
         else if(!emailsplit.equals(""))
         {
-            LoginUser();
+
+            if(verificaConexao() == true)
+            {
+                Log.d("nao","eoq");
+                LoginUser();
+            }
+            else
+            {
+                Toast.makeText(this, "Não foi possivel conectar", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Principal.this, TelaLogin.class);
+                startActivityForResult(intent, 0);
+            }
+
         }
     }
     private  void LoginUser()
@@ -77,6 +92,7 @@ public class Principal extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful())
                 {
+                    Log.d("Conectrou?", "sim");
                     users.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
@@ -105,11 +121,24 @@ public class Principal extends AppCompatActivity {
                 }
                 else
                 {
-                    //Toast.makeText(principal.this,"Could not login user", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(Principal.this, TelaLogin.class);
+                    startActivityForResult(intent, 0);
 
                 }
             }
         });
 
+    }
+    public  boolean verificaConexao() {
+        boolean conectado;
+        ConnectivityManager conectivtyManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (conectivtyManager.getActiveNetworkInfo() != null
+                && conectivtyManager.getActiveNetworkInfo().isAvailable()
+                && conectivtyManager.getActiveNetworkInfo().isConnected()) {
+            conectado = true;
+        } else {
+            conectado = false;
+        }
+        return conectado;
     }
 }

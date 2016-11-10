@@ -2,12 +2,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.isaquearaujo.apporganizaenem.TelaRelaxamento">
 
     <!-- TODO: Update blank fragment layout -->
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <TextView
+        android:background="#0d567f"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/piru"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="0%"
+        app:layout_marginLeftPercent="0%"
+        android:textColor="#ffffff"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_below="@id/piru"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Relaxamento" />
+    </android.support.percent.PercentRelativeLayout>
 
 </FrameLayout>

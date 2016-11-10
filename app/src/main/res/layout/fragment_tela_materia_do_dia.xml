@@ -1,13 +1,29 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.isaquearaujo.apporganizaenem.TelaMateriaDoDia">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="MateriaDoDia" />
-
-</FrameLayout>
+    <RelativeLayout
+        android:id="@+id/layoutmateria1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="25dp"
+            android:textColor="#004c66"
+            android:paddingLeft="10dp"
+            android:text="MATÉRIA DE HOJE"
+            android:background="@drawable/barrinha"
+            android:id="@+id/materiadodia"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            />
+        <ListView
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_below="@id/materiadodia"
+            android:id="@+id/listamateriadodia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ListView>
+    </RelativeLayout>
+</RelativeLayout>

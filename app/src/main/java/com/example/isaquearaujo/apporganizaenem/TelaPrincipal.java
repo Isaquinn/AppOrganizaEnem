@@ -1,7 +1,10 @@
 package com.example.isaquearaujo.apporganizaenem;
 
 import android.app.FragmentManager;
+import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v4.app.FragmentActivity;
@@ -14,6 +17,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
@@ -27,6 +31,7 @@ import java.util.ArrayList;
 
 public class TelaPrincipal extends FragmentActivity implements View.OnClickListener, Runnable{
     //public static  int number = 0;
+    public static ProgressDialog progress;
     public static ViewPager viewpagerprincipal;
     private ListView mDrawerList;
     private RelativeLayout mDrawerPane;
@@ -44,10 +49,20 @@ public class TelaPrincipal extends FragmentActivity implements View.OnClickListe
     TextView tv1, tv2, tv3, tv4, tv5;
     DrawerListAdapter adapterdrawer;
     boolean validate = true;
+    private SharedPreferences settings;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_principal);
+        progress = new ProgressDialog(TelaPrincipal.this,R.style.full_screen_dialog) {
+            @Override
+            protected void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+                setContentView(R.layout.custom_progressdialog);
+                getWindow().setLayout(WindowManager.LayoutParams.FILL_PARENT, WindowManager.LayoutParams.FILL_PARENT);
+            }
+        };
+        progress.show();
         openmenu = (Button)findViewById(R.id.openmenu);
         openmenu.setOnClickListener(this);
         mNavItems.add(new NavItem("Inicio", R.drawable.iconelivrosp));
@@ -64,6 +79,7 @@ public class TelaPrincipal extends FragmentActivity implements View.OnClickListe
         typeface = Typeface.createFromAsset(getAssets(), "fonts/OpenSans-Semibold.ttf");
         typeface2 = Typeface.createFromAsset(getAssets(), "fonts/OpenSans-ExtraBold.ttf");
         final Padrao fragment = new Padrao();
+        settings = getSharedPreferences(com.example.isaquearaujo.apporganizaenem.Principal.PREFS_NAME, 0);
         viewpagerprincipal = (ViewPager)findViewById(R.id.viewpagerprincipal);
         viewpagerprincipal.setAdapter(new NavigateTelaPrincipal(getSupportFragmentManager()));
         viewpagerprincipal.setOffscreenPageLimit(3);
@@ -144,6 +160,12 @@ public class TelaPrincipal extends FragmentActivity implements View.OnClickListe
                 {
                     gambiarra =false;
                     mNavItems.get(4).mIcon = R.drawable.iconesairp;
+                    SharedPreferences.Editor editor = settings.edit();
+                    editor.putString("email", "");
+                    editor.putString("senha","");
+                    editor.commit();
+                    Intent intent = new Intent(TelaPrincipal.this, TelaLogin.class);
+                    startActivity(intent);
                 }
                 DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
@@ -151,6 +173,7 @@ public class TelaPrincipal extends FragmentActivity implements View.OnClickListe
             }
         });
         run();
+
         //number = 0;
     }
 
@@ -334,6 +357,9 @@ public class TelaPrincipal extends FragmentActivity implements View.OnClickListe
             TelaMostrarFilmesELivros.Producaoclick = 0;
             TelaMostrarFilmesELivros.Materiarelacionadaclick = 0;
             TelaMostrarFilmesELivros.Descricaoclick = 0;
+            TelaMostrarFilmesELivros.Descricao.setTypeface(typeface);
+            TelaMostrarFilmesELivros.MateriaRelacionada.setTypeface(typeface);
+            TelaMostrarFilmesELivros.Producao.setTypeface(typeface);
         }
         else if (viewpagerprincipal.getCurrentItem() == 0 && Padrao.transicaopadrao.getCurrentItem() == 1 && TelaDicas.transicaodicas.getCurrentItem() == 5 && viewpagerdicas == 2)
         {
@@ -344,6 +370,9 @@ public class TelaPrincipal extends FragmentActivity implements View.OnClickListe
             TelaMostrarFilmesELivros.Producaoclick = 0;
             TelaMostrarFilmesELivros.Materiarelacionadaclick = 0;
             TelaMostrarFilmesELivros.Descricaoclick = 0;
+            TelaMostrarFilmesELivros.Descricao.setTypeface(typeface);
+            TelaMostrarFilmesELivros.MateriaRelacionada.setTypeface(typeface);
+            TelaMostrarFilmesELivros.Producao.setTypeface(typeface);
         }
         else if (viewpagerprincipal.getCurrentItem() == 0 && Padrao.transicaopadrao.getCurrentItem() == 2)
         {

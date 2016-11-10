@@ -12,26 +12,27 @@
             android:layout_centerHorizontal="true"
             android:id="@+id/piru"
             app:layout_widthPercent="100%"
-            app:layout_heightPercent="10%"
+            app:layout_heightPercent="8%"
             app:layout_marginTopPercent="0%"
             app:layout_marginLeftPercent="0%"
             android:textColor="#ffffff"
             android:textSize="24dp"/>
         <TextView
+            android:textColor="#0d567f"
             android:layout_below="@id/piru"
             android:textAlignment="center"
             android:text="Dicas"
-            android:textSize="25dp"
+            android:textSize="27dp"
             app:layout_widthPercent="100%"
             app:layout_heightPercent="10%"
-            app:layout_marginTopPercent="2%"
+            app:layout_marginTopPercent="5%"
             app:layout_marginLeftPercent="0%" />
         <ImageView
             android:id="@+id/buttonfilmes"
             android:src="@drawable/filmes"
             app:layout_widthPercent="40%"
             app:layout_heightPercent="50%"
-            app:layout_marginTopPercent="10%"
+            app:layout_marginTopPercent="15%"
             app:layout_marginLeftPercent="7%"/>
         <ImageView
             android:id="@+id/buttonrelaxamento"
@@ -45,7 +46,7 @@
             android:src="@drawable/livros"
             app:layout_widthPercent="40%"
             app:layout_heightPercent="50%"
-            app:layout_marginTopPercent="10%"
+            app:layout_marginTopPercent="15%"
             app:layout_marginLeftPercent="53%"/>
         <ImageView
             android:id="@+id/buttonmente"

@@ -2,14 +2,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.isaquearaujo.apporganizaenem.TelaMente">
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:background="#0d567f"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/piru"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="0%"
+        app:layout_marginLeftPercent="0%"
+        android:textColor="#ffffff"
+        android:textSize="24dp"/>
     <ScrollView
+        android:layout_below="@id/piru"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
+
+            android:paddingTop="20dp"
+            android:paddingBottom="50dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
+                android:textColor="#0d567f"
+                android:textSize="25dp"
+                android:id="@+id/titulotelamente"
+                android:textAlignment="center"
+                android:text="Concentração"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@id/titulotelamente"
                 android:textColor="#004c66"
                 android:paddingTop="2.5dp"
                 android:id="@+id/buttonmarcatexto"
@@ -71,5 +99,5 @@
                 android:layout_height="wrap_content" />
         </RelativeLayout>
     </ScrollView>
-
+</android.support.percent.PercentRelativeLayout>
 </RelativeLayout>

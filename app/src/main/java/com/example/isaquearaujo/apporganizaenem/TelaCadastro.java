@@ -3,12 +3,14 @@ package com.example.isaquearaujo.apporganizaenem;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -16,7 +18,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -36,8 +41,10 @@ public class TelaCadastro extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
     private Firebase principal;
     private Firebase users;
+    private Firebase userslogin;
     public  static  String emailsplit;
     private TextView entrar;
+    private SharedPreferences settings;
     //endregion
     String materias = "PORTUGUÊS/LITERATURA!MATEMÁTICA!BIOLOGIA!HISTÓRIA!GEOGRAFIA!FILOSOFIA!SOCIOLOGIA!FÍSICA!QUÍMICA!";
     String materiadodia = "PronomesYAcentosYAlgebraYGeometriaYCelulasYSeleçãoNatural";
@@ -49,6 +56,7 @@ public class TelaCadastro extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
         principal = new Firebase("https://organiza-enem-app.firebaseio.com/");
         users = principal.child("users");
+        settings = getSharedPreferences(com.example.isaquearaujo.apporganizaenem.Principal.PREFS_NAME, 0);
         //region Identificação de assets
         nomeusario = (EditText)findViewById(R.id.username);
         emialusuario = (EditText)findViewById(R.id.email);
@@ -186,6 +194,11 @@ public class TelaCadastro extends AppCompatActivity {
                     String[] ListaDoDia = {"Pontuação", "Figuras de Linguagem", "Crase", "Advérbios"};
                     principal.child("users").child(emailsplit).child("ListaDoDia").setValue(ListaDoDia);
                     Toast.makeText(TelaCadastro.this,"Registered Succesefuly", Toast.LENGTH_SHORT).show();
+                    SharedPreferences.Editor editor = settings.edit();
+                    editor.putString("email", textoemail);
+                    editor.putString("senha",textosenha);
+                    editor.commit();
+                    userslogin =  principal.child("users").child(emailsplit).child("Avatar");
                     progress.dismiss();
                 }
                 else
@@ -201,5 +214,59 @@ public class TelaCadastro extends AppCompatActivity {
         Intent intent = new Intent(TelaCadastro.this, TelaLogin.class );
         startActivityForResult(intent, 0);
         overridePendingTransition(R.animator.slide_in_left, R.animator.slide_out_left);
+    }
+    private  void LoginUser()
+    {
+        String textoemail = emialusuario.getText().toString().trim();
+        String textosenha = senhausuario.getText().toString().trim();
+        if(TextUtils.isEmpty(textoemail))
+        {
+            Toast.makeText(this, "Please enter Email", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if(TextUtils.isEmpty(textosenha))
+        {
+            Toast.makeText(this, "Please enter Password", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        firebaseAuth.signInWithEmailAndPassword(textoemail,textosenha).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if(task.isSuccessful())
+                {
+                    Log.d("vaivai", "porfavor");
+                    userslogin.addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            String message = dataSnapshot.getValue(String.class);
+                            if(message.contains("0"))
+                            {
+                                Intent intent = new Intent(TelaCadastro.this, TelaCustomizacaoAvatar.class);
+                                startActivityForResult(intent, 0);
+                            }
+                            else
+                            {
+                                Intent intent = new Intent(TelaCadastro.this, TelaPrincipal.class);
+                                startActivityForResult(intent, 0);
+                            }
+                        }
+                        @Override
+                        public void onCancelled(FirebaseError firebaseError) {
+
+                        }
+                    });
+                    /*Toast.makeText(NewLogin.this,"Login Succesefuly", Toast.LENGTH_SHORT).show();
+                    Intent iinent= new Intent(NewLogin.this,CustomAvatar.class);
+                    startActivity(iinent);*/
+                    Toast.makeText(TelaCadastro.this,"Login Succesefuly", Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    Toast.makeText(TelaCadastro.this,"Could not login user", Toast.LENGTH_SHORT).show();
+                    progress.dismiss();
+                }
+            }
+        });
+
     }
 }

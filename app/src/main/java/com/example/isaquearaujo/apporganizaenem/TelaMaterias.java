@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.GridLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
@@ -26,7 +28,7 @@ public class TelaMaterias extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_materias, container, false);
-        font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/OpenSans-Regular.ttf");
+        font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/OpenSans-Semibold.ttf");
         materias = (ViewPager)rootView.findViewById(R.id.viewPager);
         tabLayout = (TabLayout)rootView.findViewById(R.id.tabLayout);
         materias.setAdapter(new NavigateMaterias(getActivity().getSupportFragmentManager()));
@@ -46,7 +48,9 @@ public class TelaMaterias extends Fragment {
                 if (tabViewChild instanceof TextView)
                 {
                     ((TextView) tabViewChild).setTypeface(font, Typeface.NORMAL);
-                    ((TextView) tabViewChild).setAllCaps(false);
+                    ((TextView) tabViewChild).setGravity(Gravity.TOP);
+                    ((TextView) tabViewChild).setSingleLine(false);
+                    ((TextView) tabViewChild).setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
                 }
             }
         }

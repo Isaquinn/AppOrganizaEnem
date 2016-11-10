@@ -20,12 +20,14 @@ public class TelaMostrarFilmesELivros extends Fragment implements View.OnClickLi
     public static TextView sinopse, mostrarmateriaRelacionada, mostrarproducao, Descricao, MateriaRelacionada, Producao;
     public static int Descricaoclick = 0; public  static int Materiarelacionadaclick = 0; public static int Producaoclick = 0;
     Typeface typeface;
+    Typeface typefacebold;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_tela_mostrar_filmes_elivros, container, false);
         typeface = Typeface.createFromAsset(getActivity().getAssets(), "fonts/OpenSans-Semibold.ttf");
+        typefacebold = Typeface.createFromAsset(getActivity().getAssets(), "fonts/OpenSans-Bold.ttf");
         imagemfilmeoulivro = (ImageView)rootView.findViewById(R.id.imagemfilmeoulivro);
         titlelivrooufilme = (TextView)rootView.findViewById(R.id.titlelivrooufilme);
         sinopse = (TextView)rootView.findViewById(R.id.textodescricao);
@@ -46,9 +48,17 @@ public class TelaMostrarFilmesELivros extends Fragment implements View.OnClickLi
     public void onClick(View v) {
         if(v.getId() == R.id.buttondescricao)
         {
+
             Descricaoclick+=1;
             if(Descricaoclick == 1)
             {
+                mostrarmateriaRelacionada.setText("");
+                Materiarelacionadaclick = 0;
+                mostrarproducao.setText("");
+                Producaoclick = 0;
+                Descricao.setTypeface(typefacebold);
+                MateriaRelacionada.setTypeface(typeface);
+                Producao.setTypeface(typeface);
                 if(TelaFilmes.numberfilmes == 1)
                 {
                     sinopse.setText("Olga(2004), a cinebiografia da judia alemã Olga Benário Prestes foi dirigida por Jayme Monjardim. Militante comunista e companheira de Luís Carlos Prestes, Olga foi deportada para a Alemanha nazista durante o governo Getúlio Vargas. Presa num campo de extermínio, ela foi morta em 1942.");
@@ -94,14 +104,24 @@ public class TelaMostrarFilmesELivros extends Fragment implements View.OnClickLi
             else if(Descricaoclick == 2)
             {
                 sinopse.setText("");
+                Descricao.setTypeface(typeface);
+                MateriaRelacionada.setTypeface(typeface);
+                Producao.setTypeface(typeface);
                 Descricaoclick = 0;
             }
         }
         if(v.getId() == R.id.buttonmateriarelacionada)
         {
+            sinopse.setText("");
+            Descricaoclick = 0;
+            mostrarproducao.setText("");
+            Producaoclick = 0;
             Materiarelacionadaclick+=1;
             if(Materiarelacionadaclick == 1)
             {
+                MateriaRelacionada.setTypeface(typefacebold);
+                Descricao.setTypeface(typeface);
+                Producao.setTypeface(typeface);
                 if(TelaFilmes.numberfilmes == 1)
                 {
                     mostrarmateriaRelacionada.setText("Olga(2004), a cinebiografia da judia alemã Olga Benário Prestes foi dirigida por Jayme Monjardim. Militante comunista e companheira de Luís Carlos Prestes, Olga foi deportada para a Alemanha nazista durante o governo Getúlio Vargas. Presa num campo de extermínio, ela foi morta em 1942.");
@@ -146,14 +166,24 @@ public class TelaMostrarFilmesELivros extends Fragment implements View.OnClickLi
             else if(Materiarelacionadaclick == 2)
             {
                 mostrarmateriaRelacionada.setText("");
+                MateriaRelacionada.setTypeface(typeface);
+                Descricao.setTypeface(typeface);
+                Producao.setTypeface(typeface);
                 Materiarelacionadaclick = 0;
             }
         }
         if(v.getId() == R.id.buttonproducao)
         {
             Producaoclick+=1;
+            mostrarmateriaRelacionada.setText("");
+            Materiarelacionadaclick = 0;
+            sinopse.setText("");
+            Descricaoclick = 0;
             if(Producaoclick == 1)
             {
+                Producao.setTypeface(typefacebold);
+                MateriaRelacionada.setTypeface(typeface);
+                Descricao.setTypeface(typeface);
                 if(TelaFilmes.numberfilmes == 1)
                 {
                     mostrarproducao.setText("Olga(2004), a cinebiografia da judia alemã Olga Benário Prestes foi dirigida por Jayme Monjardim. Militante comunista e companheira de Luís Carlos Prestes, Olga foi deportada para a Alemanha nazista durante o governo Getúlio Vargas. Presa num campo de extermínio, ela foi morta em 1942.");
@@ -197,6 +227,9 @@ public class TelaMostrarFilmesELivros extends Fragment implements View.OnClickLi
             }
             else if(Producaoclick == 2)
             {
+                Producao.setTypeface(typeface);
+                MateriaRelacionada.setTypeface(typeface);
+                Descricao.setTypeface(typeface);
                 mostrarproducao.setText("");
                 Producaoclick = 0;
             }

@@ -10,6 +10,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -80,6 +81,7 @@ public class TelaLogin extends AppCompatActivity {
                 }
                 else
                 {
+                    progress.dismiss();
                     Toast.makeText(getApplicationContext(), "Não é possível entrar, você está sem conexão com a internet", Toast.LENGTH_LONG)
                             .show();
                 }
@@ -132,6 +134,7 @@ public class TelaLogin extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful())
                 {
+                    Log.d("vaivai", "porfavor");
                     users.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
@@ -156,7 +159,7 @@ public class TelaLogin extends AppCompatActivity {
                     Intent iinent= new Intent(NewLogin.this,CustomAvatar.class);
                     startActivity(iinent);*/
                     Toast.makeText(TelaLogin.this,"Login Succesefuly", Toast.LENGTH_SHORT).show();
-                    progress.dismiss();
+
                 }
                 else
                 {

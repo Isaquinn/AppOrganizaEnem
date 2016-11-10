@@ -1,4 +1,5 @@
 package com.example.isaquearaujo.apporganizaenem;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
@@ -11,11 +12,13 @@ import android.widget.ImageView;
 
 public class SelecaoDicas extends Fragment implements View.OnClickListener{
     ImageView filmes, livros, relaxamento, mente;
+    Typeface typeface;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_selecao_dicas, container, false);
+        typeface = Typeface.createFromAsset(getActivity().getAssets(), "fonts/OpenSans-Semibold.ttf");
         filmes = (ImageView) rootView.findViewById(R.id.buttonfilmes);
         filmes.setOnClickListener(this);
         livros = (ImageView) rootView.findViewById(R.id.buttonlivros);
@@ -40,6 +43,9 @@ public class SelecaoDicas extends Fragment implements View.OnClickListener{
             TelaMostrarFilmesELivros.Descricaoclick = 0;
             TelaMostrarFilmesELivros.Materiarelacionadaclick = 0;
             TelaMostrarFilmesELivros.Producaoclick = 0;
+            TelaMostrarFilmesELivros.Descricao.setTypeface(typeface);
+            TelaMostrarFilmesELivros.MateriaRelacionada.setTypeface(typeface);
+            TelaMostrarFilmesELivros.Producao.setTypeface(typeface);
         }
         if(v.getId() == R.id.buttonlivros)
         {
@@ -52,6 +58,9 @@ public class SelecaoDicas extends Fragment implements View.OnClickListener{
             TelaMostrarFilmesELivros.Descricaoclick = 0;
             TelaMostrarFilmesELivros.Materiarelacionadaclick = 0;
             TelaMostrarFilmesELivros.Producaoclick = 0;
+            TelaMostrarFilmesELivros.Descricao.setTypeface(typeface);
+            TelaMostrarFilmesELivros.MateriaRelacionada.setTypeface(typeface);
+            TelaMostrarFilmesELivros.Producao.setTypeface(typeface);
         }
         if(v.getId() == R.id.buttonrelaxamento)
         {
