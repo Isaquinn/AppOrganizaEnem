@@ -24,57 +24,66 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"></com.example.isaquearaujo.apporganizaenem.NonSwipeableViewPager>
             <RelativeLayout
-                android:background="#ffffff"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
                 android:id="@+id/drawerPane"
-                android:layout_gravity="start" android:fitsSystemWindows="true">
+                android:layout_gravity="start" android:fitsSystemWindows="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:weightSum="1.0">
-                    <LinearLayout
-                        android:background="#0d567f"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight=".38">
-                        <android.support.percent.PercentRelativeLayout
-                            android:background="#0d567f"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-                            <ImageView
-                                android:src="@drawable/logo_conf"
-                                app:layout_widthPercent="55%"
-                                app:layout_heightPercent="75%"
-                                app:layout_marginTopPercent="10%"
-                                app:layout_marginLeftPercent="22.5%"/>
-                            <TextView
-                                android:textColor="#ffffff"
-                                android:textSize="18sp"
-                                android:text="OrganizaEnem"
-                                app:layout_widthPercent="50%"
-                                app:layout_heightPercent="10%"
-                                app:layout_marginTopPercent="85%"
-                                app:layout_marginLeftPercent="5%"/>
-                        </android.support.percent.PercentRelativeLayout>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:background="#0d567f"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight=".62">
-                        <ListView
-                            android:layout_marginTop="10dp"
-                            android:id="@+id/navList"
-                            android:layout_width="match_parent"
+                    android:weightSum="1.0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <RelativeLayout
+                        android:layout_weight="0.92"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:layout_below="@+id/profileBox"
-                            android:choiceMode="singleChoice"
-                            android:background="#ffffffff" />
-                    </LinearLayout>
+                            android:orientation="vertical"
+                            android:weightSum="1.0">
+                            <LinearLayout
+                                android:background="#0d567f"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight=".31">
+                                <android.support.percent.PercentRelativeLayout
+                                    android:background="#0d567f"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ImageView
+                                        android:src="@drawable/logo_conf"
+                                        app:layout_widthPercent="55%"
+                                        app:layout_heightPercent="75%"
+                                        app:layout_marginTopPercent="10%"
+                                        app:layout_marginLeftPercent="18.5%"/>
+                                    <TextView
+                                        android:textColor="#ffffff"
+                                        android:textSize="16dp"
+                                        android:text="OrganizaEnem"
+                                        app:layout_widthPercent="50%"
+                                        app:layout_heightPercent="15%"
+                                        app:layout_marginTopPercent="82.5%"
+                                        app:layout_marginLeftPercent="5%"/>
+                                </android.support.percent.PercentRelativeLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:background="#0d567f"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight=".69">
+                                <ListView
+                                    android:id="@+id/navList"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_below="@+id/profileBox"
+                                    android:choiceMode="singleChoice"
+                                    android:background="#ffffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
                 </LinearLayout>
             </RelativeLayout>
+
         </android.support.v4.widget.DrawerLayout>
     </android.support.percent.PercentRelativeLayout>
 </RelativeLayout>

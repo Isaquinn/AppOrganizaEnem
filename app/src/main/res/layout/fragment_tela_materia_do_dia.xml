@@ -1,5 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="30dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.isaquearaujo.apporganizaenem.TelaMateriaDoDia">
@@ -19,8 +22,8 @@
             />
         <ListView
             android:layout_marginTop="10dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:layout_below="@id/materiadodia"
             android:id="@+id/listamateriadodia"
             android:layout_width="wrap_content"

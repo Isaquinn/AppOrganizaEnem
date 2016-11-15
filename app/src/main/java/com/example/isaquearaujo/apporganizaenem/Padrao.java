@@ -32,14 +32,14 @@ public class Padrao extends Fragment {
     public static ImageView imageview;
     public static String nomeusuario;
     public static int numerodaimagemavatar;
-    RoundImage roundImage;
+    public  static  RoundImage roundImage;
     Bitmap bitmap;
     Bitmap rosto;
     Bitmap rostosembranco;
     Bitmap cabelo;
     Bitmap olho;
     Bitmap boca;
-    Bitmap allimages;
+    public  static  Bitmap allimages;
     Bitmap allimagessembranco;
     int numberrosto, numbercabelo, numberolho, numberboca;
     int avatarnumber;
@@ -55,6 +55,7 @@ public class Padrao extends Fragment {
     public static int porcentagemvalor = 0;
     public static ProgressBar xpusuario;
     public static TextView Porcentagem;
+    public static boolean desfer = true;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -91,13 +92,16 @@ public class Padrao extends Fragment {
                 String rostoitem = mapa.get("Face");
                 String olhoitem = mapa.get("Olho");
                 String bocaitem = mapa.get("Boca");
-                Porcentagem.setText(porcentagemitem+"%");
-                porcentagem = Integer.parseInt(porcentagemitem);
-                porcentagemvalor = Integer.parseInt(porcentagemitem);
-                progressvalor = Integer.parseInt(xpitem);
-                progress = Integer.parseInt(xpitem);
-                Log.d("Valor", xpitem.toString().trim());
-                xpusuario.setProgress(progressvalor);
+                if(desfer == true){
+                    porcentagem = Integer.parseInt(porcentagemitem);
+                    progress = Integer.parseInt(xpitem);
+                    Porcentagem.setText(String.valueOf(porcentagem)+"%");
+                    xpusuario.setProgress(progress);
+                }
+                else
+                {
+
+                }
                 switch (Integer.parseInt(avataritem))
                 {
                     case 1:
@@ -184,7 +188,6 @@ public class Padrao extends Fragment {
                         break;
                 }
                 allimages = createSingleImageFromMultipleImages(rosto, cabelo, olho, boca);
-
                 Bitmap teste = BitmapFactory.decodeResource(getResources(), R.drawable.avatar);
                 roundImage = new RoundImage(allimages);
                 imageview.setImageDrawable(roundImage);

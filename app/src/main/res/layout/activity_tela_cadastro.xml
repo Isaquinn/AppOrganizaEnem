@@ -76,7 +76,7 @@
                 android:textSize="17dp"
                 android:paddingLeft="12dp"
                 android:background="@drawable/edittext_bg"
-                android:inputType="textPersonName"
+                android:inputType="textPassword"
                 android:id="@+id/passwordcadastro"
                 android:layout_width="match_parent"
                 android:layout_height="37dp"

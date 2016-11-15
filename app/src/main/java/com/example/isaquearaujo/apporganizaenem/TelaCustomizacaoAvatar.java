@@ -70,7 +70,7 @@ public class TelaCustomizacaoAvatar extends AppCompatActivity implements View.On
         cabeloanterior.setOnClickListener(this);
         olhoanterior = (Button) findViewById(R.id.olhoanterior);
         olhoanterior.setOnClickListener(this);
-        bocaanterior = (Button) findViewById(R.id.bocaanterior);
+        bocaanterior = (Button) findViewById(R.id.bocanterior);
         bocaanterior.setOnClickListener(this);
         cabeloposterior = (Button) findViewById(R.id.cabeloposterior);
         cabeloposterior.setOnClickListener(this);
@@ -259,7 +259,7 @@ public class TelaCustomizacaoAvatar extends AppCompatActivity implements View.On
                 }
             }
         }
-        if (v.getId() == R.id.bocaanterior) {
+        if (v.getId() == R.id.bocanterior) {
             if (numberboca > 0) {
                 numberboca -= 1;
                 if (numberboca == 0) {

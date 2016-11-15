@@ -65,6 +65,7 @@ public class TelaCadastro extends AppCompatActivity {
         entrar = (TextView)findViewById(R.id.entrar);
         //jatemconta = (TextView)findViewById(R.id.jaexisteconta);
         fonttexto =  Typeface.createFromAsset(getAssets(),"fonts/OpenSans-ExtraBold.ttf");
+        entrar.setTypeface(fonttexto);
         registrarnovousuario.setTypeface(fonttexto);
         //endregion
         //region Evento click para registrar novo usuario
@@ -200,6 +201,9 @@ public class TelaCadastro extends AppCompatActivity {
                     editor.commit();
                     userslogin =  principal.child("users").child(emailsplit).child("Avatar");
                     progress.dismiss();
+                    Intent intent = new Intent(TelaCadastro.this, TelaLogin.class);
+                    startActivityForResult(intent, 0);
+                    overridePendingTransition(R.animator.slide_in_left, R.animator.slide_out_left);
                 }
                 else
                 {

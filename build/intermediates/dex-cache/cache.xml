@@ -2,22 +2,58 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.4.0_c6c6371b81f0edc26ac12d8faeed088aecef3b31.jar" />
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_b80e58895694b69ad34da545c10e1b706c5abbda\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.4.0_f52fb5f16d706bbb018909223bd1f9ab887693ee.jar" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9795350d9db59045bd4c581b51268daa67027c5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_bbffbb3599a684aa4804326c14aa8b0821b0b99c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_5b609870fce0e7c53832b4c08db2c9328cd04010\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_4a9e07736f39de72a645b3a6ec8e656b79bd851f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.2.1\4cc2dc4c178fe50d942264aff3749cad783c2e83\firebase-client-android-2.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4cc2dc4c178fe50d942264aff3749cad783c2e83">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.2.1_b1cb180fcc42ef6eb8c2b167a26b4898cfd8dcfc\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -26,7 +62,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_af681429b745b6dc2c4dc5a4777e3acca07cdcfb\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_af681429b745b6dc2c4dc5a4777e3acca07cdcfb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -35,7 +71,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_f52fb5f16d706bbb018909223bd1f9ab887693ee\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_f52fb5f16d706bbb018909223bd1f9ab887693ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.4.0_0696169243608bdefb7c643dc695a52337aa8af2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -44,25 +89,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-v4-24.2.1_67442735bca1d2b09217944f55caec8655a301e2\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_67442735bca1d2b09217944f55caec8655a301e2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_fa1fc0ea1014906ee9c70004c7df18e717b8cced.jar" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_9fe86cd90e71338b305b48b6e50312054f8232a6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_0809a09710ee1f604651d98c437446bf43bfaf2f.jar" />
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.4.0_4691ef701bb91a30564bac02c5f32a8dddda4d1c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -71,7 +116,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-safetynet-9.4.0_4b82cd34a45b0867d83ca3b8d95d176b860c6bef\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.4.0_4b82cd34a45b0867d83ca3b8d95d176b860c6bef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.4.0_0b624fa77ba536f0f6e795ce464ed4a4802ad4a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_03965c02e03a24de7dea3b559aa0a6a038a93311\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -80,52 +143,70 @@
         optimize="true"
         revision="24.0.2"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-24.2.1_fa1fc0ea1014906ee9c70004c7df18e717b8cced\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_fa1fc0ea1014906ee9c70004c7df18e717b8cced\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_67442735bca1d2b09217944f55caec8655a301e2.jar" />
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.4.0_85d45f3c3da637d878728d775751763917309681\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.4.0_e456834f28f52628891563ad19c2f874d5b0b171.jar" />
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_db43656ede099b6a619c8eb1f6954f64f7934e32\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.4.0_af681429b745b6dc2c4dc5a4777e3acca07cdcfb.jar" />
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_ba5ed6add340ab6e2e1746967bd542d0cdda678d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-9.4.0_4b82cd34a45b0867d83ca3b8d95d176b860c6bef.jar" />
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_a43ab09b793e052c0302f699d0a07d2af393db6c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-9.4.0_13750888d3db7cd200a5f255775536629831558b.jar" />
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_529074f7d24fa6d4533496ca0c72e916a897e5af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_87e3a796b523d89c32a70122adc0c323e875a484\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_2f230515ebd933575af3a2f87194c70cb76066ca\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -134,7 +215,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_2f230515ebd933575af3a2f87194c70cb76066ca\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_2f230515ebd933575af3a2f87194c70cb76066ca\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -143,25 +224,43 @@
         optimize="true"
         revision="24.0.2"
         sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_e456834f28f52628891563ad19c2f874d5b0b171\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_e456834f28f52628891563ad19c2f874d5b0b171\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-9.4.0_aa88c85372f8fbb387b9f1a48278936629538e04.jar" />
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.4.0_a5f293cb0e2f607f363dc32513bca554ffb4c5fa\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\percent\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="c394e9a7e1552a4499c7d7d25e7eccd6a533b6df">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-percent-24.2.1_1e6432de5741df0f9bfa9c9f75801301d747f4b8.jar" />
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.4.0_cb324f215bda018ffb472fc7489085e11db6f052\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_67442735bca1d2b09217944f55caec8655a301e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_f3f4b6f5a7f12460187ce9171df0498452e87617\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -170,16 +269,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-fragment-24.2.1_0809a09710ee1f604651d98c437446bf43bfaf2f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.2.1\485b52379ebb3ca5d0e3bfbce2a16129e9a041de\firebase-client-jvm-2.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="485b52379ebb3ca5d0e3bfbce2a16129e9a041de">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.2.1_2202bfa36380a8c6a4a8d3a8852989a16a401958.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_0809a09710ee1f604651d98c437446bf43bfaf2f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -188,7 +278,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="485b52379ebb3ca5d0e3bfbce2a16129e9a041de">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\firebase-client-jvm-2.2.1_2202bfa36380a8c6a4a8d3a8852989a16a401958\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.2.1_2202bfa36380a8c6a4a8d3a8852989a16a401958\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_29a7cd78cacd87e598b95dd50bd67c66e4269be3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_51c66c61bbdfefbe4fcf730793db25f3908e272b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -197,7 +305,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="4cc2dc4c178fe50d942264aff3749cad783c2e83">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\firebase-client-android-2.2.1_b1cb180fcc42ef6eb8c2b167a26b4898cfd8dcfc\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.2.1_b1cb180fcc42ef6eb8c2b167a26b4898cfd8dcfc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.4.0_60491aba37c3606bf712d219cdab91a2f7b18a7d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -206,25 +323,34 @@
         optimize="true"
         revision="24.0.2"
         sha1="c394e9a7e1552a4499c7d7d25e7eccd6a533b6df">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-percent-24.2.1_1e6432de5741df0f9bfa9c9f75801301d747f4b8\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-percent-24.2.1_1e6432de5741df0f9bfa9c9f75801301d747f4b8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-9.4.0_108ab1d083fcd302920f96d87019e7155abb2da2.jar" />
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.4.0_e0dc7a28d1326021176b6cb900c91aaf4a88034e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.2.1\4cc2dc4c178fe50d942264aff3749cad783c2e83\firebase-client-android-2.2.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="4cc2dc4c178fe50d942264aff3749cad783c2e83">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.2.1_b1cb180fcc42ef6eb8c2b167a26b4898cfd8dcfc.jar" />
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_b42f313f5c1c48bada5b846e78e470982e25cdb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a260b446842d9ac30ef0f6666900c4c36b32f6f8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -233,7 +359,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-games-9.4.0_aa88c85372f8fbb387b9f1a48278936629538e04\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.4.0_aa88c85372f8fbb387b9f1a48278936629538e04\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -242,7 +368,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_5b609870fce0e7c53832b4c08db2c9328cd04010\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_5b609870fce0e7c53832b4c08db2c9328cd04010\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -251,7 +377,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-multidex-1.0.0_6fbe47b2c3cb348a6a6700d8812b4cb9c7fa7c01\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.0_6fbe47b2c3cb348a6a6700d8812b4cb9c7fa7c01\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -260,7 +386,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-plus-9.4.0_13750888d3db7cd200a5f255775536629831558b\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.4.0_13750888d3db7cd200a5f255775536629831558b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_c6c6371b81f0edc26ac12d8faeed088aecef3b31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_9c365875b38f16cf4d80a9158c4c8723713468b8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -269,52 +413,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_108ab1d083fcd302920f96d87019e7155abb2da2\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_108ab1d083fcd302920f96d87019e7155abb2da2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-9.4.0_778560fbd5bd2f1c2ff8bf5875d72be4694c26ee.jar" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_f1276dda888f8e010c796fea2121768d19a4f85f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.4.0_bbffbb3599a684aa4804326c14aa8b0821b0b99c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.4.0_b80e58895694b69ad34da545c10e1b706c5abbda.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_9fe86cd90e71338b305b48b6e50312054f8232a6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_70d0960b420e8393559fcdc9c52789a6fd87d8c7.jar" />
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_ea35b30455bc17ba626c78620ba12537795f28a9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -323,7 +440,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_bbffbb3599a684aa4804326c14aa8b0821b0b99c\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_bbffbb3599a684aa4804326c14aa8b0821b0b99c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -332,7 +449,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_b80e58895694b69ad34da545c10e1b706c5abbda\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_b80e58895694b69ad34da545c10e1b706c5abbda\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -341,7 +458,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\jackson-databind-2.2.2_ca0a560c3b5db891a58b6f248c93b8a29c9e9221\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_ca0a560c3b5db891a58b6f248c93b8a29c9e9221\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_0809a09710ee1f604651d98c437446bf43bfaf2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.4.0_89b37a3a3c9b9b739f444879f65e5068f03b8c57\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -350,25 +485,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_9fe86cd90e71338b305b48b6e50312054f8232a6\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_9fe86cd90e71338b305b48b6e50312054f8232a6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.4.0_ef4fc0215f67225136abbfcd2f36b5a12f66603d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2_ca0a560c3b5db891a58b6f248c93b8a29c9e9221.jar" />
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_f52fb5f16d706bbb018909223bd1f9ab887693ee\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -377,7 +503,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="d49118ba67a101c4895f0581f17142cba85b330b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-panorama-9.4.0_778560fbd5bd2f1c2ff8bf5875d72be4694c26ee\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.4.0_778560fbd5bd2f1c2ff8bf5875d72be4694c26ee\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -386,16 +512,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_529074f7d24fa6d4533496ca0c72e916a897e5af\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-contextmanager-9.4.0_0b624fa77ba536f0f6e795ce464ed4a4802ad4a1.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_529074f7d24fa6d4533496ca0c72e916a897e5af\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -404,7 +521,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-media-compat-24.2.1_ba5ed6add340ab6e2e1746967bd542d0cdda678d\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_ba5ed6add340ab6e2e1746967bd542d0cdda678d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -413,7 +530,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\jackson-core-2.2.2_87e3a796b523d89c32a70122adc0c323e875a484\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_87e3a796b523d89c32a70122adc0c323e875a484\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -422,7 +539,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_ef4fc0215f67225136abbfcd2f36b5a12f66603d\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_ef4fc0215f67225136abbfcd2f36b5a12f66603d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.4.0_78fd68df2ae4beafdb3ad58e6c184644601750c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_e456834f28f52628891563ad19c2f874d5b0b171\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -431,16 +566,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.4.0_0b624fa77ba536f0f6e795ce464ed4a4802ad4a1\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.4.0_4691ef701bb91a30564bac02c5f32a8dddda4d1c.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.4.0_0b624fa77ba536f0f6e795ce464ed4a4802ad4a1\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -449,25 +575,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\jackson-annotations-2.2.2_db43656ede099b6a619c8eb1f6954f64f7934e32\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_db43656ede099b6a619c8eb1f6954f64f7934e32\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2_87e3a796b523d89c32a70122adc0c323e875a484.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.4.0_418e99059016431e9b6d029b398f4a51a7428011.jar" />
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_cb2adb9db1b918f514e667cab395128fd58199cb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -476,7 +593,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-core-utils-24.2.1_70d0960b420e8393559fcdc9c52789a6fd87d8c7\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_70d0960b420e8393559fcdc9c52789a6fd87d8c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_b8331745c6b50dc9a1ba580b1d2b181f8358be12\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -485,34 +611,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="ba47b210d36301e237ccfea860eaada04590f12a">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-analytics-9.4.0_4691ef701bb91a30564bac02c5f32a8dddda4d1c\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.4.0_2f230515ebd933575af3a2f87194c70cb76066ca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2_db43656ede099b6a619c8eb1f6954f64f7934e32.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_529074f7d24fa6d4533496ca0c72e916a897e5af.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.4.0_4691ef701bb91a30564bac02c5f32a8dddda4d1c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -521,16 +620,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="e35002351f2d415093a9b564652d4b56be6a0593">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-places-9.4.0_c7e8dad2aae5f0c12d8e1f9b391a53609e2a7814\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_ba5ed6add340ab6e2e1746967bd542d0cdda678d.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.4.0_c7e8dad2aae5f0c12d8e1f9b391a53609e2a7814\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -539,16 +629,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_cb2adb9db1b918f514e667cab395128fd58199cb\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d45042e0900fb44bce17a978a5f2d49e1d6f1c85.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_cb2adb9db1b918f514e667cab395128fd58199cb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -557,34 +638,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-location-9.4.0_cb324f215bda018ffb472fc7489085e11db6f052\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.4.0_cb324f215bda018ffb472fc7489085e11db6f052\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.4.0_f3f4b6f5a7f12460187ce9171df0498452e87617.jar" />
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.4.0_aa88c85372f8fbb387b9f1a48278936629538e04\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-9.4.0_c7e8dad2aae5f0c12d8e1f9b391a53609e2a7814.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.4.0_e8477d4a16c3255e6ecba3d2ed3321e2d5783c6a.jar" />
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_f13985e0ec801f0ed67b4a435f79e7d73dbe7a1c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -593,16 +665,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="dab6944860c986980dcc6002a5ca2f127b587317">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-config-9.4.0_78fd68df2ae4beafdb3ad58e6c184644601750c5\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.4.0_cb324f215bda018ffb472fc7489085e11db6f052.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.4.0_78fd68df2ae4beafdb3ad58e6c184644601750c5\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -611,7 +674,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_f3f4b6f5a7f12460187ce9171df0498452e87617\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_f3f4b6f5a7f12460187ce9171df0498452e87617\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -620,34 +683,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="03829a2618892d438a1f59c6286699ca1f476e93">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.4.0_a5f293cb0e2f607f363dc32513bca554ffb4c5fa\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.4.0_a5f293cb0e2f607f363dc32513bca554ffb4c5fa\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-9.4.0_60491aba37c3606bf712d219cdab91a2f7b18a7d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-9.4.0_e0dc7a28d1326021176b6cb900c91aaf4a88034e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-common-9.4.0_81db95a7b4504a16412f7c9cf88a0893d132cf53.jar" />
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_dcc7c5fa8f2cad2df12c5ab977fd5ff0f01c0f44\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -656,25 +701,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.4.0_60491aba37c3606bf712d219cdab91a2f7b18a7d\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_b42f313f5c1c48bada5b846e78e470982e25cdb3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-framework-9.4.0_a5f293cb0e2f607f363dc32513bca554ffb4c5fa.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.4.0_60491aba37c3606bf712d219cdab91a2f7b18a7d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -683,7 +710,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-24.2.1_d45042e0900fb44bce17a978a5f2d49e1d6f1c85\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d45042e0900fb44bce17a978a5f2d49e1d6f1c85\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -692,16 +719,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_9c365875b38f16cf4d80a9158c4c8723713468b8\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_9c365875b38f16cf4d80a9158c4c8723713468b8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.4.0_9c365875b38f16cf4d80a9158c4c8723713468b8.jar" />
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_108ab1d083fcd302920f96d87019e7155abb2da2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -710,7 +737,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="736d8893fb702f128a153c9d87c9c29724d37872">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-appinvite-9.4.0_e0dc7a28d1326021176b6cb900c91aaf4a88034e\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.4.0_e0dc7a28d1326021176b6cb900c91aaf4a88034e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -719,7 +746,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-23.0.0_b42f313f5c1c48bada5b846e78e470982e25cdb3\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_b42f313f5c1c48bada5b846e78e470982e25cdb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_ca0a560c3b5db891a58b6f248c93b8a29c9e9221\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -728,25 +764,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-auth-9.4.0_27bff0189f893a44317dc65396c10882ef547a3b\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.4.0_27bff0189f893a44317dc65396c10882ef547a3b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.4.0_66a5daf6bda35580280ecb42b44dc09c79ca9313.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_ea35b30455bc17ba626c78620ba12537795f28a9.jar" />
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.4.0_311411645dbdf86dfb793348ea44893b16f4e552\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -755,7 +782,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_ea35b30455bc17ba626c78620ba12537795f28a9\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_ea35b30455bc17ba626c78620ba12537795f28a9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -764,16 +791,34 @@
         optimize="true"
         revision="24.0.2"
         sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.4.0_89b37a3a3c9b9b739f444879f65e5068f03b8c57\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.4.0_89b37a3a3c9b9b739f444879f65e5068f03b8c57\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.11\d37cb67277928cf59344b4196af8d9cee1f1a27c\tubesock-0.0.11.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_f1276dda888f8e010c796fea2121768d19a4f85f.jar" />
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.11_f3b40a6bd9c2caa86177ab51307bbce06a061829\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_70d0960b420e8393559fcdc9c52789a6fd87d8c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_ef4fc0215f67225136abbfcd2f36b5a12f66603d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -782,7 +827,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-nearby-9.4.0_70a0c20a822a6ca2edcef0bf92659c6078352815\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.4.0_70a0c20a822a6ca2edcef0bf92659c6078352815\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -791,7 +836,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-storage-common-9.4.0_81db95a7b4504a16412f7c9cf88a0893d132cf53\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.4.0_81db95a7b4504a16412f7c9cf88a0893d132cf53\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -800,7 +845,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_66a5daf6bda35580280ecb42b44dc09c79ca9313\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_66a5daf6bda35580280ecb42b44dc09c79ca9313\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.4.0_2453bcb9f5f0adca3655a9fb2b7ae63a24f0f656\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.4.0_778560fbd5bd2f1c2ff8bf5875d72be4694c26ee\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -809,16 +872,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-appcompat-v7-24.2.1_f1276dda888f8e010c796fea2121768d19a4f85f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.4.0_89b37a3a3c9b9b739f444879f65e5068f03b8c57.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_f1276dda888f8e010c796fea2121768d19a4f85f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -827,16 +881,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.4.0_31f028250782a50de89044ac57c8be396425758a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-config-9.4.0_78fd68df2ae4beafdb3ad58e6c184644601750c5.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.4.0_31f028250782a50de89044ac57c8be396425758a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -845,43 +890,34 @@
         optimize="true"
         revision="24.0.2"
         sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-database-9.4.0_e8477d4a16c3255e6ecba3d2ed3321e2d5783c6a\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.4.0_e8477d4a16c3255e6ecba3d2ed3321e2d5783c6a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-9.4.0_70a0c20a822a6ca2edcef0bf92659c6078352815.jar" />
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_418e99059016431e9b6d029b398f4a51a7428011\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.4.0_b8331745c6b50dc9a1ba580b1d2b181f8358be12.jar" />
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.4.0_e789b41f3b2fb3c834aae73bac55693f734b5315\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-api-9.4.0_31f028250782a50de89044ac57c8be396425758a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_cb2adb9db1b918f514e667cab395128fd58199cb.jar" />
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_be0bdb8a4da323dbe3c2266d9a94cd418eddc5a5\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -890,7 +926,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_b8331745c6b50dc9a1ba580b1d2b181f8358be12\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_b8331745c6b50dc9a1ba580b1d2b181f8358be12\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -899,7 +935,34 @@
         optimize="true"
         revision="24.0.2"
         sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_418e99059016431e9b6d029b398f4a51a7428011\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_418e99059016431e9b6d029b398f4a51a7428011\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_91d3b6a0804a64a266b8d9fdcbc990526cf12da7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.4.0_e8477d4a16c3255e6ecba3d2ed3321e2d5783c6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d45042e0900fb44bce17a978a5f2d49e1d6f1c85\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -908,16 +971,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-design-24.2.1_dcc7c5fa8f2cad2df12c5ab977fd5ff0f01c0f44\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_dcc7c5fa8f2cad2df12c5ab977fd5ff0f01c0f44\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_0ab69915219d2fc7f31fbb8c9c34560138467ac6.jar" />
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_83ca49f5128ddc8b221a3aece8f1c11ef339eb99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui\0.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f34a8aeb0eaaa2d69752d56102a8c808117058e">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-0.3.1_3a65dae2443e2ebe1426e7be3ef8c13c17265b27\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -926,16 +998,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-compat-24.2.1_0ab69915219d2fc7f31fbb8c9c34560138467ac6\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_0ab69915219d2fc7f31fbb8c9c34560138467ac6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -944,7 +1007,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_f13985e0ec801f0ed67b4a435f79e7d73dbe7a1c\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_f13985e0ec801f0ed67b4a435f79e7d73dbe7a1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.4.0_81db95a7b4504a16412f7c9cf88a0893d132cf53\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -953,34 +1025,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_dcc7c5fa8f2cad2df12c5ab977fd5ff0f01c0f44.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-23.0.0_76e8b54467d572ace31db626405308bca9c764d5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.4.0_f13985e0ec801f0ed67b4a435f79e7d73dbe7a1c.jar" />
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.4.0_27bff0189f893a44317dc65396c10882ef547a3b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -989,7 +1043,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_76e8b54467d572ace31db626405308bca9c764d5\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_76e8b54467d572ace31db626405308bca9c764d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.4.0_75e00ccb1848c6107d1e0a5bfe7fb01fe7d3e2e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_54005ea8327d4073f603dc1785a28b7d5b4a7b5f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -998,25 +1070,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_a43ab09b793e052c0302f699d0a07d2af393db6c\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_9795350d9db59045bd4c581b51268daa67027c5b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-9.4.0_2453bcb9f5f0adca3655a9fb2b7ae63a24f0f656.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_a43ab09b793e052c0302f699d0a07d2af393db6c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1025,7 +1079,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-24.2.1_be0bdb8a4da323dbe3c2266d9a94cd418eddc5a5\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_be0bdb8a4da323dbe3c2266d9a94cd418eddc5a5\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1034,43 +1088,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-24.2.1_9795350d9db59045bd4c581b51268daa67027c5b\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.4.0_a43ab09b793e052c0302f699d0a07d2af393db6c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.4.0_311411645dbdf86dfb793348ea44893b16f4e552.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_5b609870fce0e7c53832b4c08db2c9328cd04010.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_4a9e07736f39de72a645b3a6ec8e656b79bd851f.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9795350d9db59045bd4c581b51268daa67027c5b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1079,25 +1097,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-fitness-9.4.0_2453bcb9f5f0adca3655a9fb2b7ae63a24f0f656\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.4.0_2453bcb9f5f0adca3655a9fb2b7ae63a24f0f656\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-9.4.0_0696169243608bdefb7c643dc695a52337aa8af2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.4.0_03965c02e03a24de7dea3b559aa0a6a038a93311.jar" />
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_66a5daf6bda35580280ecb42b44dc09c79ca9313\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1106,25 +1115,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-wearable-9.4.0_85d45f3c3da637d878728d775751763917309681\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.4.0_85d45f3c3da637d878728d775751763917309681\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-9.4.0_e789b41f3b2fb3c834aae73bac55693f734b5315.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-9.4.0_85d45f3c3da637d878728d775751763917309681.jar" />
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_fa1fc0ea1014906ee9c70004c7df18e717b8cced\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1133,7 +1133,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_4a9e07736f39de72a645b3a6ec8e656b79bd851f\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_4a9e07736f39de72a645b3a6ec8e656b79bd851f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.4.0_70a0c20a822a6ca2edcef0bf92659c6078352815\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.4.0_31f028250782a50de89044ac57c8be396425758a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1142,7 +1160,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_03965c02e03a24de7dea3b559aa0a6a038a93311\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_03965c02e03a24de7dea3b559aa0a6a038a93311\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.4.0_c7e8dad2aae5f0c12d8e1f9b391a53609e2a7814\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_af681429b745b6dc2c4dc5a4777e3acca07cdcfb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1151,16 +1187,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-drive-9.4.0_e789b41f3b2fb3c834aae73bac55693f734b5315\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_be0bdb8a4da323dbe3c2266d9a94cd418eddc5a5.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.4.0_e789b41f3b2fb3c834aae73bac55693f734b5315\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1169,7 +1196,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-24.2.1_a260b446842d9ac30ef0f6666900c4c36b32f6f8\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a260b446842d9ac30ef0f6666900c4c36b32f6f8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1178,7 +1205,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="5f34a8aeb0eaaa2d69752d56102a8c808117058e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.firebaseui-firebase-ui-0.3.1_3a65dae2443e2ebe1426e7be3ef8c13c17265b27\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-0.3.1_3a65dae2443e2ebe1426e7be3ef8c13c17265b27\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1187,25 +1214,34 @@
         optimize="true"
         revision="24.0.2"
         sha1="a432629397351d3ec7f27a23d258b229b81af08f">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-cast-9.4.0_75e00ccb1848c6107d1e0a5bfe7fb01fe7d3e2e4\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.4.0_75e00ccb1848c6107d1e0a5bfe7fb01fe7d3e2e4\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a260b446842d9ac30ef0f6666900c4c36b32f6f8.jar" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_0ab69915219d2fc7f31fbb8c9c34560138467ac6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.4.0_91d3b6a0804a64a266b8d9fdcbc990526cf12da7.jar" />
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.4.0_4b82cd34a45b0867d83ca3b8d95d176b860c6bef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\percent\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c394e9a7e1552a4499c7d7d25e7eccd6a533b6df">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-percent-24.2.1_1e6432de5741df0f9bfa9c9f75801301d747f4b8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1214,25 +1250,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-core-ui-24.2.1_51c66c61bbdfefbe4fcf730793db25f3908e272b\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_51c66c61bbdfefbe4fcf730793db25f3908e272b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.2.1\485b52379ebb3ca5d0e3bfbce2a16129e9a041de\firebase-client-jvm-2.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.4.0_83ca49f5128ddc8b221a3aece8f1c11ef339eb99.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui\0.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f34a8aeb0eaaa2d69752d56102a8c808117058e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.firebaseui-firebase-ui-0.3.1_3a65dae2443e2ebe1426e7be3ef8c13c17265b27.jar" />
+        sha1="485b52379ebb3ca5d0e3bfbce2a16129e9a041de">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.2.1_2202bfa36380a8c6a4a8d3a8852989a16a401958\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1241,16 +1268,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\tubesock-0.0.11_f3b40a6bd9c2caa86177ab51307bbce06a061829\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_51c66c61bbdfefbe4fcf730793db25f3908e272b.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.11_f3b40a6bd9c2caa86177ab51307bbce06a061829\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1259,7 +1277,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="e454c414a069241ee08444d187f2dd3a702596b5">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_54005ea8327d4073f603dc1785a28b7d5b4a7b5f\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_54005ea8327d4073f603dc1785a28b7d5b4a7b5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1268,7 +1295,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-storage-9.4.0_0696169243608bdefb7c643dc695a52337aa8af2\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.4.0_0696169243608bdefb7c643dc695a52337aa8af2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1277,7 +1304,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-common-9.4.0_83ca49f5128ddc8b221a3aece8f1c11ef339eb99\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_83ca49f5128ddc8b221a3aece8f1c11ef339eb99\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1286,16 +1313,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_29a7cd78cacd87e598b95dd50bd67c66e4269be3\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.11\d37cb67277928cf59344b4196af8d9cee1f1a27c\tubesock-0.0.11.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\tubesock-0.0.11_f3b40a6bd9c2caa86177ab51307bbce06a061829.jar" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_29a7cd78cacd87e598b95dd50bd67c66e4269be3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1304,7 +1322,7 @@
         optimize="true"
         revision="24.0.2"
         sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_91d3b6a0804a64a266b8d9fdcbc990526cf12da7\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_91d3b6a0804a64a266b8d9fdcbc990526cf12da7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1313,16 +1331,25 @@
         optimize="true"
         revision="24.0.2"
         sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_c6c6371b81f0edc26ac12d8faeed088aecef3b31\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_c6c6371b81f0edc26ac12d8faeed088aecef3b31\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.4.0_27bff0189f893a44317dc65396c10882ef547a3b.jar" />
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.0_6fbe47b2c3cb348a6a6700d8812b4cb9c7fa7c01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.4.0_13750888d3db7cd200a5f255775536629831558b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1331,34 +1358,16 @@
         optimize="true"
         revision="24.0.2"
         sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-appindexing-9.4.0_311411645dbdf86dfb793348ea44893b16f4e552\classes.dex" />
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.4.0_311411645dbdf86dfb793348ea44893b16f4e552\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-9.4.0_29a7cd78cacd87e598b95dd50bd67c66e4269be3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.4.0_54005ea8327d4073f603dc1785a28b7d5b4a7b5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
-        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-9.4.0_75e00ccb1848c6107d1e0a5bfe7fb01fe7d3e2e4.jar" />
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\Isaque Araujo\Desktop\AppOrganizaEnem\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_76e8b54467d572ace31db626405308bca9c764d5\classes.dex" />
     </item>
 
 </items>

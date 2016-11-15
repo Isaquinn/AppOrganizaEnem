@@ -5,6 +5,9 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v4.app.FragmentActivity;
@@ -27,7 +30,12 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
+
 import java.util.ArrayList;
+import java.util.Map;
 
 public class TelaPrincipal extends FragmentActivity implements View.OnClickListener, Runnable{
     //public static  int number = 0;
@@ -301,6 +309,118 @@ public class TelaPrincipal extends FragmentActivity implements View.OnClickListe
         if (viewpagerprincipal.getCurrentItem() == 2)
         {
             viewpagerprincipal.setCurrentItem(1, false);
+            TelaMudarAvatar.users.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    Map<String,String> mapa = dataSnapshot.getValue(Map.class);
+                    String porcentagemitem = mapa.get("Porcentagem");
+                    String xpitem = mapa.get("Xp");
+                    String avataritem = mapa.get("Sexo");
+                    String cabeloitem = mapa.get("Cabelo");
+                    String rostoitem = mapa.get("Face");
+                    String olhoitem = mapa.get("Olho");
+                    String bocaitem = mapa.get("Boca");
+                    TelaMudarAvatar.numberrosto = Integer.parseInt(rostoitem);
+                    TelaMudarAvatar.numberboca = Integer.parseInt(bocaitem);
+                    TelaMudarAvatar.numbercabelo = Integer.parseInt(cabeloitem);
+                    TelaMudarAvatar.numberolho = Integer.parseInt(olhoitem);
+                    TelaMudarAvatar.avatarnumber = Integer.parseInt(avataritem);
+                    switch (Integer.parseInt(avataritem))
+                    {
+                        case 1:
+                            switch (Integer.parseInt(cabeloitem))
+                            {
+                                case 0:
+                                    TelaMudarAvatar.cabelo = BitmapFactory.decodeResource(getResources(), R.drawable.cabelo);
+                                    break;
+                                case 1:
+                                    TelaMudarAvatar.cabelo = BitmapFactory.decodeResource(getResources(), R.drawable.cabelo2);
+                                    break;
+                                case 2:
+                                    TelaMudarAvatar.cabelo = BitmapFactory.decodeResource(getResources(), R.drawable.cabelo3);
+                                    break;
+                            }
+                            break;
+                        case 2:
+                            switch (Integer.parseInt(cabeloitem))
+                            {
+                                case 0:
+                                    TelaMudarAvatar.cabelo = BitmapFactory.decodeResource(getResources(), R.drawable.cabelo4);
+                                    break;
+                                case 1:
+                                    TelaMudarAvatar.cabelo = BitmapFactory.decodeResource(getResources(), R.drawable.cabelo4);
+                                    break;
+                                case 2:
+                                    TelaMudarAvatar.cabelo = BitmapFactory.decodeResource(getResources(), R.drawable.cabelo4);
+                                    break;
+                            }
+                            break;
+                    }
+                    switch (Integer.parseInt(rostoitem))
+                    {
+                        case 0:
+                            TelaMudarAvatar.rosto = BitmapFactory.decodeResource(getResources(), R.drawable.rostobranco);
+                            TelaMudarAvatar.rostosembranco = BitmapFactory.decodeResource(getResources(), R.drawable.rosto);
+                            break;
+                        case 1:
+                            TelaMudarAvatar.rosto = BitmapFactory.decodeResource(getResources(), R.drawable.rosto2branco);
+                            TelaMudarAvatar.rostosembranco = BitmapFactory.decodeResource(getResources(), R.drawable.rosto2);
+                            break;
+                        case 2:
+                            TelaMudarAvatar.rosto = BitmapFactory.decodeResource(getResources(), R.drawable.rosto3branco);
+                            TelaMudarAvatar.rostosembranco = BitmapFactory.decodeResource(getResources(), R.drawable.rosto3);
+                            break;
+                    }
+                    switch (Integer.parseInt(olhoitem))
+                    {
+                        case 0:
+                            TelaMudarAvatar.olho = BitmapFactory.decodeResource(getResources(), R.drawable.olhos);
+                            break;
+                        case 1:
+                            TelaMudarAvatar.olho = BitmapFactory.decodeResource(getResources(), R.drawable.olhos2);
+                            break;
+                        case 2:
+                            TelaMudarAvatar.olho = BitmapFactory.decodeResource(getResources(), R.drawable.olhos3);
+                            break;
+                        case 3:
+                            TelaMudarAvatar.olho = BitmapFactory.decodeResource(getResources(), R.drawable.olhos4);
+                            break;
+                        case 4:
+                            TelaMudarAvatar.olho = BitmapFactory.decodeResource(getResources(), R.drawable.olhos5);
+                            break;
+                        case 5:
+                            TelaMudarAvatar.olho = BitmapFactory.decodeResource(getResources(), R.drawable.olhos6);
+                            break;
+                    }
+                    switch (Integer.parseInt(bocaitem))
+                    {
+                        case 0:
+                            TelaMudarAvatar.boca = BitmapFactory.decodeResource(getResources(), R.drawable.boca);
+                            break;
+                        case 1:
+                            TelaMudarAvatar.boca = BitmapFactory.decodeResource(getResources(), R.drawable.boca2);
+                            break;
+                        case 2:
+                            TelaMudarAvatar.boca = BitmapFactory.decodeResource(getResources(), R.drawable.boca3);
+                            break;
+                        case 3:
+                            TelaMudarAvatar.boca = BitmapFactory.decodeResource(getResources(), R.drawable.boca4);
+                            break;
+                        case 4:
+                            TelaMudarAvatar.boca = BitmapFactory.decodeResource(getResources(), R.drawable.boca5);
+                            break;
+                    }
+                    TelaMudarAvatar.allimagessembranco = createSingleImageFromMultipleImages(TelaMudarAvatar.rostosembranco, TelaMudarAvatar.cabelo, TelaMudarAvatar.olho, TelaMudarAvatar.boca);
+                    TelaMudarAvatar.imageavatarconfig.setImageBitmap(TelaMudarAvatar.allimagessembranco);
+                    TelaPrincipal.progress.dismiss();
+
+                    //numerodaimagemavatar = Integer.parseInt(part2);
+                }
+                @Override
+                public void onCancelled(FirebaseError firebaseError) {
+
+                }
+            });
             //login2(nomeusuario);
         }
         if (viewpagerprincipal.getCurrentItem() == 0 && Padrao.transicaopadrao.getCurrentItem() == 0 && TelaMaterias.materias.getCurrentItem() != 0)
@@ -416,5 +536,15 @@ public class TelaPrincipal extends FragmentActivity implements View.OnClickListe
                 }
             }
         }).start();
+    }
+    private Bitmap createSingleImageFromMultipleImages(Bitmap rosto, Bitmap cabelo, Bitmap olho, Bitmap boca)
+    {
+        Bitmap result = Bitmap.createBitmap(rosto.getWidth(), rosto.getHeight(), rosto.getConfig());
+        Canvas canvas = new Canvas(result);
+        canvas.drawBitmap(rosto, 0f, 0f, null);
+        canvas.drawBitmap(cabelo, 0, 0, null);
+        canvas.drawBitmap(olho, 0, 0, null);
+        canvas.drawBitmap(boca, 0, 0, null);
+        return result;
     }
 }
