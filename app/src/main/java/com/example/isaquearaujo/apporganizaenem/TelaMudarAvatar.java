@@ -212,7 +212,8 @@ public class TelaMudarAvatar extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         if (v.getId() == R.id.cabeloanteriorconfig)
         {
-            if (sexo == 1)
+            Log.d("Sexo", String.valueOf(sexo));
+            if (avatarnumber == 1)
             {
                 if (numbercabelo > 0)
                 {
@@ -240,7 +241,7 @@ public class TelaMudarAvatar extends Fragment implements View.OnClickListener {
                     }
                 }
             }
-            if (sexo == 2)
+            if (avatarnumber == 2)
             {
                 if (numbercabelo > 0)
                 {
@@ -271,7 +272,7 @@ public class TelaMudarAvatar extends Fragment implements View.OnClickListener {
         }
         if (v.getId() == R.id.cabeloposteriorconfig)
         {
-            if (sexo == 1)
+            if (avatarnumber == 1)
             {
                 if (numbercabelo < 2)
                 {
@@ -299,7 +300,7 @@ public class TelaMudarAvatar extends Fragment implements View.OnClickListener {
                     }
                 }
             }
-            if (sexo == 2)
+            if (avatarnumber == 2)
             {
                 if (numbercabelo < 2)
                 {

@@ -21,11 +21,12 @@ public class NavigateTelaDicas extends FragmentPagerAdapter {
             case 3: return new TelaRelaxamento();
             case 4: return new TelaMente();
             case 5: return new TelaMostrarFilmesELivros();
+            case 6: return new TelaMostrarGif();
         }
         return null;
     }
     @Override
     public int getCount() {
-        return 6;
+        return 7;
     }
 }
