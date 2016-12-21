@@ -21,6 +21,8 @@ public class TelaRelaxamento extends Fragment implements View.OnClickListener {
     Typeface typeface;
     Typeface typefacebold;
     ImageView iamge;
+    Fragment fragment;
+    TelaMostrarGif telaMostrarGif;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -32,6 +34,7 @@ public class TelaRelaxamento extends Fragment implements View.OnClickListener {
         typefacebold = Typeface.createFromAsset(getActivity().getAssets(), "fonts/OpenSans-Bold.ttf");
         animquad.setTypeface(typeface);
         animquad.setOnClickListener(this);
+telaMostrarGif = new TelaMostrarGif();
         return rootView;
     }
 
@@ -40,8 +43,7 @@ public class TelaRelaxamento extends Fragment implements View.OnClickListener {
         if(v.getId() == R.id.buttonrespquad)
         {
             animquad.setTypeface(typefacebold);
-            //TelaDicas.transicaodicas.setCurrentItem(6, false);
-            //Glide.with(getActivity().getApplication()) .load(R.drawable.respquad) .asGif() .into(iamge);
+            TelaDicas.transicaodicas.setCurrentItem(6, false);
         }
     }
 }

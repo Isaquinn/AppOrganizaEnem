@@ -468,6 +468,10 @@ public class TelaPrincipal extends FragmentActivity implements View.OnClickListe
         {
             TelaDicas.transicaodicas.setCurrentItem(0, false);
         }
+        else if (viewpagerprincipal.getCurrentItem() == 0 && Padrao.transicaopadrao.getCurrentItem() == 1 && TelaDicas.transicaodicas.getCurrentItem() == 6)
+        {
+            TelaDicas.transicaodicas.setCurrentItem(3, false);
+        }
         else if (viewpagerprincipal.getCurrentItem() == 0 && Padrao.transicaopadrao.getCurrentItem() == 1 && TelaDicas.transicaodicas.getCurrentItem() == 5 && viewpagerdicas == 1)
         {
             TelaDicas.transicaodicas.setCurrentItem(1, false);
